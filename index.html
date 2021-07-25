@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kareem Gameel | Front-End Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Scroll Reaveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+  <body class="bg-white font-mainFont text-gray-600 min-h-full flex flex-col">
+    <!-- Start Container -->
+    <div id="container" class="container mx-auto sm:px-6 lg:px-28 space-y-8">
+      <!-- Header -->
+      <div
+        id="header-wrapper"
+        class="
+          wrapper-fill
+          flex
+          w-full
+          mx-auto
+          justify-between
+          px-4
+          md:px-0
+          h-12
+          md:h-20
+        "
+      >
+        <div class="logo-img">
+          <img src="img/logo_black.png" alt="Logo" class="w-20 h-auto mt-2" />
+        </div>
+        <!-- navigation -->
+        <div class="navigation flex items-end sm:flex-col">
+          <div class="hidden md:block">
+            <ul class="flex hover:text-mainColor uppercase mt-8">
+              <li class="ml-10">
+                <a href="#header-wrapper">
+                  <p class="text-sm">Home</p>
+                </a>
+              </li>
+              <li class="ml-10">
+                <a href="#about-wrapper">
+                  <p class="text-sm">About Me</p>
+                </a>
+              </li>
+              <li class="ml-10">
+                <a href="#projects-wrapper">
+                  <p class="text-sm">Projects</p>
+                </a>
+              </li>
+              <li class="ml-10">
+                <a href="#contact-wrapper">
+                  <p class="text-sm">Contact</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Mobile Burger icon
+          <div class="md:hidden block">
+            <div class="mobile-navigation">
+              <div
+                class="mobile-navigation-menu flex items-end"
+                id="burger-icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  style="fill: rgba(0, 0, 0, 1); transform: ; msfilter: "
+                >
+                  <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+                </svg>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- container wrapper -->
+      <div
+        id="container-wrapper"
+        class="flex flex-col w-full mx-auto container px-4 md:px-0"
+      >
+        <!-- Hero -->
+        <div
+          id="hero-wrapper"
+          class="
+            wrapper-fill
+            flex flex-col
+            md:flex-row
+            w-full
+            justify-between
+            items-end
+            mt-16
+            md:mt-36
+          "
+        >
+          <div class="block md:hidden w-full">
+            <div class="flex justify-center mb-8 md:mb-0">
+              <!-- <img src="" alt="" class="w-auto h-72" /> -->
+            </div>
+          </div>
+          <div class="w-full md:w-2/3">
+            <p
+              class="text-sm leading-8 mt-0 font-medium text-gray-500 uppercase"
+            >
+              Hi, my name is
+            </p>
+            <h1
+              class="
+                text-3xl
+                md:text-5xl
+                xl:text-6xl
+                font-medium
+                leading-tight
+                md:leading-tight
+                xl:leading-tight
+                text-mainColor
+                mt-4
+              "
+            >
+              Kareem Gameel <span class="font-semibold">.</span>
+            </h1>
+            <p class="text-sm leading-6 mt-6">
+              I'm a Front end Developer, I'm always up to learn new
+              technologies, to improve myself and get more experience for
+              Extremely Fast, High-quality & Best performance Websites.
+            </p>
+            <div class="flex justify-center md:inline-block">
+              <button
+                type="button"
+                class="
+                  mt-20
+                  px-5
+                  py-2
+                  text-sm text-mainColor
+                  font-medium
+                  rounded-full
+                  border border-gray-400
+                  hover:text-white hover:bg-mainColor hover:border-transparent
+                  focus:outline-none
+                  focus:ring-2
+                  focus:ring-mainColor
+                  focus:ring-offset-2
+                  shadow
+                  transition
+                  duration-400
+                "
+              >
+                <a href="#contact-wrapper">Let's Talk</a>
+              </button>
+
+              <button
+                type="button"
+                class="
+                  ml-6
+                  mt-20
+                  px-5
+                  py-2
+                  text-sm
+                  font-medium
+                  rounded-full
+                  border border-mainColor
+                  text-white
+                  bg-mainColor
+                  hover:border-mainColor
+                  focus:outline-none
+                  focus:ring-2
+                  focus:ring-mainColor
+                  focus:ring-offset-2
+                  hover:bg-white hover:text-mainColor
+                  transition
+                  duration-400
+                "
+              >
+                <a href="#projects-wrapper">View Work</a>
+              </button>
+            </div>
+          </div>
+          <div class="hidden md:block w-1/3">
+            <div class="flex justify-center">
+              <img src="" alt="" class="flex justify-center" />
+            </div>
+          </div>
+        </div>
+        <!-- End Hero -->
+        <!-- Start About -->
+        <div
+          id="about-wrapper"
+          class="
+            wrapper-fill
+            flex flex-col
+            md:flex-row
+            w-full
+            justify-between
+            items-center
+            mt-20
+            md:mt-36
+          "
+        >
+          <div class="flex flex-col">
+            <h3
+              class="
+                flex
+                justify-center
+                text-2xl
+                md:text-3xl
+                xl:tezt-4xl
+                font-medium
+                mb-8
+                text-mainColor
+                uppercase
+              "
+            >
+              About Me
+            </h3>
+            <div class="description w-full md:w-3/4">
+              <p class="text-sm leading-6 font-semibold text-mainColor">
+                <span class="text-gray-500">Hi, i'm</span> Kareem Gameel,
+              </p>
+              <p class="text-sm leading-6 font-normal mt-5">
+                Many developers who are "self-taught", feel that one of the main
+                disadvantages they face compared to college-educated graduates
+                in computer science is the fact that they don't have knowledge
+                about algorithms, data structures and the Big-O Notation.
+              </p>
+              <p class="text-sm leading-6 mt-5">
+                Now more than ever, technology is advancing and the world is
+                turning to use technology in almost everything, and the most
+                Popular of its fields is Creating Fast, Beauty, top-quality &
+                High-performance websites and applications, and there are Many
+                Ways to Learn for example: (youtube, udemy, edx, etc...). And
+                That is how I becoming a Front-End Developer.
+              </p>
+            </div>
+            <div class="mt-8 flex justify-center md:inline-block">
+              <ul class="flex justify-start items-center">
+                <li class="pr-4">
+                  <a href="https://github.com/kareem-g/" target="_blank"
+                    ><svg
+                      class="
+                        mb-1
+                        fill-current
+                        hover:fill-current hover:text-gray-900
+                      "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="31.5"
+                      height="31.5"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                      /></svg
+                  ></a>
+                </li>
+                <li class="px-4">
+                  <a
+                    href="https://www.linkedin.com/in/kareem-gameel"
+                    target="_blank"
+                  >
+                    <svg
+                      class="
+                        fill-current
+                        hover:fill-current hover:text-blue-500
+                      "
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26.993"
+                      height="26.993"
+                    >
+                      <path
+                        data-name="Icon ionic-logo-linkedin"
+                        d="M24.834 0H2.306A2.2 2.2 0 000 2.1v22.58a2.375 2.375 0 002.306 2.313h22.521a2.255 2.255 0 002.166-2.313V2.1A2.07 2.07 0 0024.834 0zM8.367 22.5H4.5V10.477h3.867zm-1.8-13.852h-.028A1.985 1.985 0 014.5 6.574 2 2 0 016.588 4.5a1.992 1.992 0 012.067 2.074 2 2 0 01-2.088 2.074zM22.5 22.5h-3.867v-6.574c0-1.575-.562-2.651-1.962-2.651a2.116 2.116 0 00-1.983 1.425 2.6 2.6 0 00-.134.949V22.5h-3.867V10.477h3.867v1.673a3.915 3.915 0 013.488-1.95c2.538 0 4.458 1.669 4.458 5.276V22.5z"
+                      ></path></svg
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Start Skills -->
+        <div
+          id="skills-wrapper"
+          class="
+            wrapper-fill
+            flex flex-com
+            md:flex-row
+            w-full
+            justify-between
+            items-center
+            mt-20
+            md:mt-36
+          "
+        >
+          <div class="flex flex-col">
+            <h3
+              class="
+                text-2xl
+                md:text-3xl
+                xl:text-4xl
+                font-medium
+                text-mainColor
+                mb-8
+                flex
+                justify-center
+                uppercase
+              "
+            >
+              Skills
+            </h3>
+            <div class="flex flex-col md:flex-row items-start">
+              <div class="skills-decription w-full md:w-2/4">
+                <p class="text-sm text-gray-900 leading-6 font-normal">
+                  From the beginning of my career, I've learned and gained a A
+                  good understanding of Programming and How it Works and I am
+                  always up to improve my skills, so my main focus these days is
+                  to continue learning every single day.
+                </p>
+              </div>
+              <div
+                class="
+                  skills-list
+                  mt-9
+                  md:mt-0
+                  w-full
+                  md:w-2/4
+                  flex
+                  justify-start
+                  md:justify-center
+                "
+              >
+                <ul class="flex flex-wrap md:justify-end w-full md:pl-20">
+                  <li class="skill-style">C++</li>
+                  <li class="skill-style">Object Oriented Programming</li>
+                  <li class="skill-style">Data Stractures</li>
+                  <li class="skill-style">Algorthims</li>
+                  <li class="skill-style">HTML5</li>
+                  <li class="skill-style">CSS3</li>
+                  <li class="skill-style">Tailwind</li>
+                  <li class="skill-style">Sass</li>
+                  <li class="skill-style">Responsive Design</li>
+                  <li class="skill-style">JavaScript</li>
+                  <li class="skill-style">ES6+</li>
+                  <li class="skill-style">DOM</li>
+                  <li class="skill-style">BOM</li>
+                  <li class="skill-style">Git</li>
+                  <li class="skill-style">Github</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end skills -->
+        <!-- Start Projects -->
+        <div
+          id="projects-wrapper"
+          class="
+            wrapper-fill
+            flex flex-col
+            md:flex-row
+            w-full
+            md:justify-between md:items-center
+            mt-20
+            md:mt-36
+          "
+        >
+          <div class="flex flex-col">
+            <h3
+              class="
+                text-2xl
+                md:text-3xl
+                xl:text-4xl
+                font-medium
+                text-mainColor
+                mb-8
+                flex
+                justify-center
+                uppercase
+              "
+            >
+              Projects
+            </h3>
+            <div class="flex flex-col md:flex-col items-start">
+              <div class="skills-description w-full md:w-2/4">
+                <p class="text-sm text-gray-900 leading-6 font-normal">
+                  Open source projects can be a great way to learn, improve and
+                  gain experience. There are numerous benefits to contributing
+                  to an open-source project. If you were interested, please find
+                  more details on my Github profile.
+                </p>
+              </div>
+            </div>
+            <div class="flex md:block justify-center mb-8">
+              <button
+                type="button"
+                class="
+                  mt-8
+                  px-5
+                  py-2
+                  text-sm
+                  font-medium
+                  rounded-full
+                  border border-mainColor
+                  bg-mainColor bg-opacity-95
+                  text-white
+                  hover:bg-white hover:text-mainColor
+                  focus:outline-none focus:ring-offset-2
+                "
+              >
+                <a
+                  href="https://github.com/kareem-g/"
+                  target="_blank"
+                  class="
+                    flex
+                    justify-center
+                    w-full
+                    items-center
+                    rounded
+                    uppercase
+                    transition
+                    duration-450
+                  "
+                >
+                  Github Profile
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Container -->
+
+    <!-- Start Footer -->
+    <div id="contact-wrapper" class="wrapper-fill bg-gray-100 mt-20 md:mt-36">
+      <div class="container mx-auto sm:px-6 lg:px-28 space-y-8">
+        <div
+          class="
+            about-wrapper
+            flex flex-col
+            md:flex-row
+            w-full
+            justify-between
+            items-center
+            px-4
+            md:px-0
+            my-20
+            md:my-10
+          "
+        >
+          <div class="flex flex-col md:flex-row w-full">
+            <div class="w-full md:w-2/3">
+              <h3
+                class="
+                  text-2xl
+                  md:text-3xl
+                  xl:text-4xl
+                  font-medium
+                  text-secondary
+                  mb-8
+                "
+              >
+                Have an Idea ? Let’s Talk.
+              </h3>
+              <p class="text-sm text-mainColor leading-6 font-normal">
+                I am always up for interesting ideas and projects. If you have
+                an interesting project idea, feel free to get in touch!
+              </p>
+              <div class="email mt-8">
+                <a href="mailto:mkareemgameel@gmail.com">
+                  <p
+                    class="
+                      text-sm text-secondary
+                      leading-6
+                      font-medium
+                      underline
+                    "
+                  >
+                    mkareemgameel@gmail.com
+                  </p>
+                </a>
+              </div>
+              <div class="copyright mt-20">
+                <p class="text-sm text-mainColor leading-6 font-normal">
+                  2021 © All Rights Reserved.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3">
+              <div class="flex md:justify-end items-end pt-10 md:pt-0">
+                <ul class="flex items-center">
+                  <li class="pl-4">
+                    <a href="https://github.com/kareem-g" target="_blank">
+                      <svg
+                        class="
+                          mb-1
+                          fill-current
+                          hover:fill-current hover:text-gray-900
+                        "
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="31.5"
+                        height="31.5"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                        />
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="px-4">
+                    <a
+                      href="https://www.linkedin.com/in/kareem-gameel"
+                      target="_blank"
+                    >
+                      <svg
+                        class="fill-current hover:fill-current text-blue-500"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26.993"
+                        height="26.993"
+                      >
+                        <path
+                          data-name="Icon ionic-logo-linkedin"
+                          d="M24.834 0H2.306A2.2 2.2 0 000 2.1v22.58a2.375 2.375 0 002.306 2.313h22.521a2.255 2.255 0 002.166-2.313V2.1A2.07 2.07 0 0024.834 0zM8.367 22.5H4.5V10.477h3.867zm-1.8-13.852h-.028A1.985 1.985 0 014.5 6.574 2 2 0 016.588 4.5a1.992 1.992 0 012.067 2.074 2 2 0 01-2.088 2.074zM22.5 22.5h-3.867v-6.574c0-1.575-.562-2.651-1.962-2.651a2.116 2.116 0 00-1.983 1.425 2.6 2.6 0 00-.134.949V22.5h-3.867V10.477h3.867v1.673a3.915 3.915 0 013.488-1.95c2.538 0 4.458 1.669 4.458 5.276V22.5z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+    <script>
+      ScrollReveal().reveal('.wrapper-fill', {
+        delay: 200,
+        interval: 400,
+      });
+    </script>
+  </body>
+</html>
